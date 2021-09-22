@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "food",
+      "type": "com.wllx.config.FoodConfig",
+      "sourceType": "com.wllx.config.FoodConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "food.meat",
+      "type": "java.lang.String",
+      "sourceType": "com.wllx.config.FoodConfig"
+    },
+    {
+      "name": "food.rice",
+      "type": "java.lang.String",
+      "sourceType": "com.wllx.config.FoodConfig"
+    }
+  ],
+  "hints": []
+}
