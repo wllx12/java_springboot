@@ -1,0 +1,46 @@
+application:
+  version: 1.0.0.1 (v1.0.0.1)
+
+
+#server:
+#  port: 8090
+food:
+  meat: 烤肉
+  rice: 拌饭
+  sauce:
+    - 咖喱
+    - 蜜汁
+    - 原味
+#流式语法
+#food: {meat: 烤肉,rice: 拌饭}
+spring:
+  profiles:
+    active: dev
+jasypt:
+  encryptor:
+    password: 123456!@#
+
+info:
+  username: ENC(xR3Er9wq5bfXt76zCI2CgQ==)
+  password: ENC(gq8ZT+JVo/oVx2ZxWC8C+A==)
+
+---
+#开发环境
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 9091
+
+
+---
+#生产环境
+spring:
+  config:
+    activate:
+      on-profile: prod
+server:
+  port: 9092
+
+

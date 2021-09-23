@@ -1,5 +1,6 @@
 package com.wllx.config;
 
+import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
@@ -10,25 +11,14 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @Tel/QQ: 691033
  */
 @ConfigurationProperties(prefix = "food")
+@Data
 public class FoodConfig {
 
     private String rice;
 
     private String meat;
 
-    public String getRice() {
-        return rice;
-    }
+    private String[] sauce;
 
-    public void setRice(String rice) {
-        this.rice = rice;
-    }
 
-    public String getMeat() {
-        return meat;
-    }
-
-    public void setMeat(String meat) {
-        this.meat = meat;
-    }
 }

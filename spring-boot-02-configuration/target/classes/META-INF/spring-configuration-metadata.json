@@ -4,6 +4,11 @@
       "name": "food",
       "type": "com.wllx.config.FoodConfig",
       "sourceType": "com.wllx.config.FoodConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "com.wllx.config.VegetablesConfig",
+      "sourceType": "com.wllx.config.VegetablesConfig"
     }
   ],
   "properties": [
@@ -16,6 +21,26 @@
       "name": "food.rice",
       "type": "java.lang.String",
       "sourceType": "com.wllx.config.FoodConfig"
+    },
+    {
+      "name": "food.sauce",
+      "type": "java.lang.String[]",
+      "sourceType": "com.wllx.config.FoodConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "com.wllx.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.greenpeper",
+      "type": "java.lang.String",
+      "sourceType": "com.wllx.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "com.wllx.config.VegetablesConfig"
     }
   ],
   "hints": []

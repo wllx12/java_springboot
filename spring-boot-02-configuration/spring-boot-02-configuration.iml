@@ -59,5 +59,9 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.5.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
+    <orderEntry type="library" name="Maven: com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.github.ulisesbocchio:jasypt-spring-boot:3.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.jasypt:jasypt:1.9.3" level="project" />
   </component>
 </module>

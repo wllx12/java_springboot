@@ -1,5 +1,9 @@
 package com.wllx.bean;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+
 /**
  * @Description:
  * @Author: wllx
@@ -7,25 +11,9 @@ package com.wllx.bean;
  * @Version: 1.0
  * @Tel/QQ: 691033
  */
-
+@Data
 public class Food {
     private String rice;
     private String meat;
-
-
-    public String getRice() {
-        return rice;
-    }
-
-    public void setRice(String rice) {
-        this.rice = rice;
-    }
-
-    public String getMeat() {
-        return meat;
-    }
-
-    public void setMeat(String meat) {
-        this.meat = meat;
-    }
+    private String[] sauce;
 }
