@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 /**
  * @Description:
  * @Author: wllx
@@ -22,10 +23,17 @@ public class JsonController {
 //    private String rice;
 //    @Value("${food.meat}")
 //    private String meat;
+    @Value("${info.username}")
+    private String username;
+    @Value("${info.password}")
+    private String password;
+
+
     @Autowired
     private FoodConfig foodConfig;
     @Autowired
     private VegetablesConfig vegetablesConfig;
+
 
     @RequestMapping("/json")
     public Food json(){
@@ -45,6 +53,13 @@ public class JsonController {
 
         return vegetables;
     }
+    @RequestMapping("/jasypt")
+    public String jasypt(){
+        return username +
+                "\t" +
+                password;
+    }
+
 
 
 

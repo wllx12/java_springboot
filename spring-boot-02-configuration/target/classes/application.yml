@@ -4,6 +4,19 @@ application:
 
 #server:
 #  port: 8090
+
+
+jasypt:
+  encryptor:
+    # 盐加密
+    password: 123456!@#
+    # 指定加密方式
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+info:
+  username: ENC(Mru5gwjAluKSCxkLxdGIKw==)
+  password: ENC(A1+yAABwLTuA5ynz7zUKLQ==)
+
 food:
   meat: 烤肉
   rice: 拌饭
@@ -16,13 +29,7 @@ food:
 spring:
   profiles:
     active: dev
-jasypt:
-  encryptor:
-    password: 123456!@#
 
-info:
-  username: ENC(xR3Er9wq5bfXt76zCI2CgQ==)
-  password: ENC(gq8ZT+JVo/oVx2ZxWC8C+A==)
 
 ---
 #开发环境

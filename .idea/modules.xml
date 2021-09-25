@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/java_springboot.iml" filepath="$PROJECT_DIR$/.idea/java_springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-01-helloworld/spring-boot-01-helloworld.iml" filepath="$PROJECT_DIR$/spring-boot-01-helloworld/spring-boot-01-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-02-configuration/spring-boot-02-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-02-configuration/spring-boot-02-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-03-template/spring-boot-03-template.iml" filepath="$PROJECT_DIR$/spring-boot-03-template/spring-boot-03-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-03-thymeleaf-crud/spring-boot-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/spring-boot-03-thymeleaf-crud/spring-boot-03-thymeleaf-crud.iml" />
+    </modules>
+  </component>
+</project>
