@@ -40,4 +40,24 @@ public class GustController {
 
         return "redirect:/guest/list";
     }
+
+    @RequestMapping("/guest/toupdate")
+    public String toupdate(Model model,String name){
+        Guest guest = guestService.get(name);
+        model.addAttribute("guest",guest);
+        return "update";
+    }
+
+    @RequestMapping("/guest/update")
+    public String update(Guest guest){
+        guestService.update(guest);
+        return "redirect:/guest/list";
+    }
+
+    @RequestMapping("/guest/delete")
+    public String delete(String name){
+        guestService.delete(name);
+        return "redirect:/guest/list";
+
+    }
 }

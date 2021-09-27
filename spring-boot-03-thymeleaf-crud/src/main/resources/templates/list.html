@@ -5,7 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
 </head>
-<body>
+<body class="container">
 <h2>中餐厅嘉宾列表</h2>
 <br/>
 <table class="table table-striped">
@@ -19,10 +19,21 @@
         <tr th:each="guest:${guestlist}">
             <td th:text="${guest.name}"></td>
             <td th:text="${guest.role}"></td>
+            <td class="col-sm-2">
+                <a class="btn btn-info" th:href="@{/guest/toupdate(name=${guest.name})}">编辑</a>
+                <a class="btn btn-info" th:href="@{/guest/delete(name=${guest.name})}">删除</a>
+            </td>
+
+
         </tr>
 
     </tbody>
 </table>
-<a th:href="@{/guest/toadd}">add</a>
+<div class="form-group">
+    <div class="col-sm-2 control-label">
+        <a href="/guest/toAdd" th:href="@{/guest/toadd}"
+           class="btn btn-info">添加</a>
+    </div>
+</div>
 </body>
 </html>

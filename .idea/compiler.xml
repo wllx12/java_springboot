@@ -10,12 +10,14 @@
         <module name="spring-boot-01-helloworld" />
         <module name="spring-boot-03-thymeleaf-crud" />
         <module name="spring-boot-02-configuration" />
+        <module name="spring-boot-03-restful" />
         <module name="spring-boot-03-template" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-01-helloworld" target="16" />
       <module name="spring-boot-02-configuration" target="16" />
+      <module name="spring-boot-03-restful" target="16" />
       <module name="spring-boot-03-template" target="16" />
       <module name="spring-boot-03-thymeleaf-crud" target="16" />
       <module name="wrapper" target="16" />
@@ -25,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-01-helloworld" options="-parameters" />
       <module name="spring-boot-02-configuration" options="-parameters" />
+      <module name="spring-boot-03-restful" options="-parameters" />
       <module name="spring-boot-03-template" options="-parameters" />
       <module name="spring-boot-03-thymeleaf-crud" options="-parameters" />
     </option>
