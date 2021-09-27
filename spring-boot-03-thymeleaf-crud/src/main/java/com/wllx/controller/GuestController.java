@@ -18,7 +18,7 @@ import java.util.List;
  * @Tel/QQ: 691033
  */
 @Controller
-public class GustController {
+public class GuestController {
     @Autowired
     private GuestService guestService;
 
