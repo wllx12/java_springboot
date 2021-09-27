@@ -18,7 +18,7 @@ import java.util.List;
  */
 @Controller
 @RequestMapping("/guest")
-public class GustController {
+public class GuestController {
     @Autowired
     private GuestService guestService;
 
