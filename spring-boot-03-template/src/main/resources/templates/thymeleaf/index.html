@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:text="${name}"></p>
+    <!--  会解析标签-->
+    <p th:utext="${name}"></p>
+
+
+    <p th:text="${ra.boss}"></p>
+
+    <p th:text="${ra.chef}"></p>
+    <hr/>
+
+    <div th:object="${ra}">
+        <p>Boss: <span th:text="*{boss}"></span></p>
+        <p>chef: <span th:text="*{chef}"></span></p>
+    </div>
+
+    <hr/>
+    <a href="" th:href="@{/welcome}">welcome</a>
+    <hr/>
+    <p th:text="#{something}">message</p>
+    <p th:text="#{java}">java</p>
+
+<div th:insert="footer::copy"></div>
+<div th:replace="footer::copy"></div>
+<div th:include="footer::copy"></div>
+</body>
+</html>
