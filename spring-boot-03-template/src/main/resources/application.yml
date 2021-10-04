@@ -6,3 +6,6 @@ server:
 #    view:
 #      prefix: /templates/
 #      suffix: .ftlh
+
+
+#debug: true
