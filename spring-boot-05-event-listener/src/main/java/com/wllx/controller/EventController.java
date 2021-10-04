@@ -21,6 +21,6 @@ public class EventController {
     @RequestMapping("/event")
     public String event(){
         publisher.publishEvent(new CustomEvent(this));
-        return "Success2";
+        return "Success";
     }
 }
