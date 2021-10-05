@@ -6,13 +6,13 @@ import org.springframework.context.ApplicationListener;
 /**
  * @Description:
  * @Author: wllx
- * @Date: 2021/10/04 00:14:29
+ * @Date: 2021/10/04 23:07:23
  * @Version: 1.0
  * @Tel/QQ: 691033
  */
-public class CustomListener1  implements ApplicationListener<CustomEvent> {
+public class CustomListener4 implements ApplicationListener<CustomEvent> {
     @Override
     public void onApplicationEvent(CustomEvent event) {
-        event.printMessage("CustomListener1 监听到了");
+        event.printMessage("CustomListener4 监听到了");
     }
 }

@@ -2,6 +2,7 @@ package com.wllx.listener;
 
 import com.wllx.enent.CustomEvent;
 import org.springframework.context.ApplicationListener;
+import org.springframework.stereotype.Component;
 
 /**
  * @Description:
@@ -10,6 +11,11 @@ import org.springframework.context.ApplicationListener;
  * @Version: 1.0
  * @Tel/QQ: 691033
  */
+
+/**
+ * 通过component 声明是需要加载的监听器
+ */
+@Component
 public class CustomListener2 implements ApplicationListener<CustomEvent> {
 
     @Override
