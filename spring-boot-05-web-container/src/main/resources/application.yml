@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+  servlet:
+    context-path: /wllx
+
+
+  tomcat:
+    max-connections: 20000
