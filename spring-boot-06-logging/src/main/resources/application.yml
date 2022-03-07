@@ -1,0 +1,14 @@
+logging:
+  file:
+#    path: D:\java\java_springboot\log
+    name: "log.log"
+
+
+#  \u65E5\u5FD7\u7EA7\u522B
+#  level:
+#    root: debug
+
+#  pattern:
+#    console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+
+
